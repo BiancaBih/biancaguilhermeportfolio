@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #F5F5F5;
+}
+h1 {
+    background-color: #F00F45;
+    text-align: center;
+    font-family: 'Sacramento', cursiva;
+    font-size: 30px;
+    color: #FCFBFA;
+    padding: 9px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px;
+    padding: 20px;
+    font-size: 68px;
+    font-family: 'Inconsolata', monoespaçado;;
+    line-height: 80px;
+}
+#capa {
+    border-radius: 50px;
+    padding: 20px;
+}
+.sessão1 {
+    padding: 20px;
+    margin: 70px;
+    font-size: 25px;
+    font-family: 'Inconsolata', monoespaçado;;
+    color: #F00F45;
+    text-align: center;
+}
+.sessão2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Inconsolata', monoespaçado;;
+    margin: 70px;
+    padding: 20px;
+    line-height: 50px;
+    gap: 70px;
+}
+button {
+    background-color: #F00F45;
+    color: #FCFBFA;
+    background-color: #F00F45;
+    color: #FCFBFA;
+    padding: 12px;
+}
+.sessão3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Inconsolata', monoespaçado;;
+    margin: 70px;
+    padding: 20px;
+    line-height: 50px;
+    gap: 70px;
+}
+.sessão4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Inconsolata', monoespaçado;;
+    margin: 70px;
+    padding: 20px;
+    line-height: 50px;
+    gap: 70px;
+}
+.sessão5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Inconsolata', monoespaçado;;
+    margin: 70px;
+    padding: 20px;
+    line-height: 50px;
+    gap: 70px;
+}
+@media (max-width:600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    main img {
+        height: 200px;
+        width: 200px;
+    }
+    .sessão2 {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .sessão3 {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .sessão4 {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .sessão5 {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+}
